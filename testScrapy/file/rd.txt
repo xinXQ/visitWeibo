@@ -1,0 +1,76 @@
+﻿
+
+
+
+ 创建一个Scrapy项目
+ 定义提取的Item
+ 编写爬取网站的 spider 并提取 Item
+ 编写 Item Pipeline 来存储提取到的Item(即数据)
+
+
+1.创建一个项目
+scrapy startproject testCrapy
+
+2.自定义item
+item是保存数据的容器，也就是是想抓什么字段
+
+
+3.写自己的爬虫类
+
+
+
+4.启动爬虫
+scrapy crawl dmoz
+
+
+Scrapy为Spider的 start_urls 属性中的每个URL创建了 scrapy.Request 对象，并将 parse 方法作为回调函数(callback)赋值给了Request。
+Request对象经过调度，执行生成 scrapy.http.Response 对象并送回给spider parse() 方法。
+
+
+
+xpath(): 传入xpath表达式，返回该表达式所对应的所有节点的selector list列表 。
+css(): 传入CSS表达式，返回该表达式所对应的所有节点的selector list列表.
+extract(): 序列化该节点为unicode字符串并返回list。
+re(): 根据传入的正则表达式对数据进行提取，返回unicode字符串list列表。
+
+
+
+
+
+
+
+
+
+
+
+
+根据数据库中的关键词来构造url
+http://news.baidu.com/ns?cl=0&s=1&tn=newsdy&ct1=0&ct=0&rn=50&class=0&q1=%CA%B3%C6%B7+%B2%BB%BA%CF%B8%F1&pn=50
+q1是关键词，rn是每页的结果条数
+pn是翻页参数，跟rn相关，第一页pn是0，第二页是50，以此类推，
+所以，其实不需要从页面中提取翻页的url，直接去拼url即可
+
+
+http://news.baidu.com/ns?word=%CA%B3%C6%B7+%B2%BB%BA%CF%B8%F1&bs=%CA%B3%C6%B7+%B2%BB%BA%CF%B8%F1&sr=0&cl=2&rn=20&tn=newsdy&ct=0&clk=sortbytime
+http://news.baidu.com/ns?word=%CA%B3%C6%B7+%B2%BB%BA%CF%B8%F1&bs=%CA%B3%C6%B7+%B2%BB%BA%CF%B8%F1&sr=0&cl=2&rn=20&tn=newsdy&ct=1&clk=sortbyrel
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,129 @@
+2016-09-01 18:16:38 [scrapy] INFO: Scrapy 1.1.1 started (bot: scrapyTest)
+2016-09-01 18:16:38 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'scrapyTest.spiders', 'LOG_LEVEL': 'INFO', 'SPIDER_MODULES': ['scrapyTest.spiders'], 'AUTOTHROTTLE_ENABLED': True, 'BOT_NAME': 'scrapyTest', 'LOG_FILE': 'spider.log', 'DOWNLOAD_DELAY': 10}
+2016-09-01 18:16:38 [scrapy] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.throttle.AutoThrottle']
+2016-09-01 18:16:38 [scrapy] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.chunked.ChunkedTransferMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2016-09-01 18:16:38 [scrapy] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2016-09-01 18:16:38 [scrapy] INFO: Enabled item pipelines:
+['scrapyTest.pipelines.ScrapytestPipeline']
+2016-09-01 18:16:39 [scrapy] INFO: Spider opened
+2016-09-01 18:16:39 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-09-01 18:16:40 [py.warnings] WARNING: E:\hadoop\code\testScrapy\scrapyTest\spiders\bd_news_spider4.py:58: ScrapyDeprecationWarning: log.msg has been deprecated, create a python logger and log through it instead
+  log.msg("success to parse : %s and result is %s"%(response.url,find_str), level=log.INFO)
+
+2016-09-01 18:16:40 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=sina.com.cn and result is 找到相关新闻约4,020,000篇
+2016-09-01 18:16:51 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=sohu.com and result is 找到相关新闻约4,020,000篇
+2016-09-01 18:16:59 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=163.com and result is 找到相关新闻约5,630,000篇
+2016-09-01 18:17:12 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=qq.com and result is 找到相关新闻约5,310,000篇
+2016-09-01 18:17:26 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=ifeng.com and result is 找到相关新闻约2,830,000篇
+2016-09-01 18:17:39 [scrapy] INFO: Crawled 5 pages (at 5 pages/min), scraped 0 items (at 0 items/min)
+2016-09-01 18:17:39 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=people.com.cn and result is 找到相关新闻约6,030,000篇
+2016-09-01 18:17:53 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=huanqiu.com and result is 找到相关新闻约1,000,000篇
+2016-09-01 18:18:04 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=gmw.cn and result is 找到相关新闻约2,220,000篇
+2016-09-01 18:18:18 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=cctv.com and result is 找到相关新闻约6,860篇
+2016-09-01 18:18:32 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=xinhuanet.com and result is 找到相关新闻约4,450,000篇
+2016-09-01 18:18:39 [scrapy] INFO: Crawled 10 pages (at 5 pages/min), scraped 0 items (at 0 items/min)
+2016-09-01 18:18:43 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=chinanews.com and result is 找到相关新闻约1,190,000篇
+2016-09-01 18:18:57 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=ynet.com and result is 找到相关新闻约482,000篇
+2016-09-01 18:19:05 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=010.1000city.cn and result is 找到相关新闻0篇
+2016-09-01 18:19:12 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=bjonline.zkcity.com and result is 找到相关新闻0篇
+2016-09-01 18:19:27 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=qianlong.com and result is 找到相关新闻约225,000篇
+2016-09-01 18:19:39 [scrapy] INFO: Crawled 15 pages (at 5 pages/min), scraped 0 items (at 0 items/min)
+2016-09-01 18:19:41 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=beijing.gov.cn and result is 找到相关新闻约13,500篇
+2016-09-01 18:19:55 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=tj.ccoo.cn and result is 找到相关新闻0篇
+2016-09-01 18:20:08 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=tianjinwe.com and result is 找到相关新闻约217,000篇
+2016-09-01 18:20:17 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=tjsmep.cn and result is 找到相关新闻0篇
+2016-09-01 18:20:24 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=jschina.com.cn and result is 找到相关新闻约723,000篇
+2016-09-01 18:20:32 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=jlonline.com and result is 找到相关新闻约55,700篇
+2016-09-01 18:20:39 [scrapy] INFO: Crawled 21 pages (at 6 pages/min), scraped 0 items (at 0 items/min)
+2016-09-01 18:20:45 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=njrx.cc and result is 找到相关新闻0篇
+2016-09-01 18:20:52 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=025002.com and result is 找到相关新闻0篇
+2016-09-01 18:21:00 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=njdsw.net and result is 找到相关新闻0篇
+2016-09-01 18:21:12 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=zjol.com.cn and result is 找到相关新闻约648,000篇
+2016-09-01 18:21:26 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=zj.com and result is 找到相关新闻约137,000篇
+2016-09-01 18:21:38 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=news.zj.com and result is 找到相关新闻约112,000篇
+2016-09-01 18:21:39 [scrapy] INFO: Crawled 27 pages (at 6 pages/min), scraped 0 items (at 0 items/min)
+2016-09-01 18:21:53 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=cnnb.com.cn and result is 找到相关新闻约116,000篇
+2016-09-01 18:22:06 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=zjrxz.com and result is 找到相关新闻约25,400篇
+2016-09-01 18:22:20 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=hangzhou.com.cn and result is 找到相关新闻约245,000篇
+2016-09-01 18:22:33 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=fjsen.com and result is 找到相关新闻约261,000篇
+2016-09-01 18:22:39 [scrapy] INFO: Crawled 31 pages (at 4 pages/min), scraped 0 items (at 0 items/min)
+2016-09-01 18:22:42 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=66163.com and result is 找到相关新闻354篇
+2016-09-01 18:22:56 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=fjii.com and result is 找到相关新闻约9,060篇
+2016-09-01 18:23:09 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=fznews.com.cn and result is 找到相关新闻约308,000篇
+2016-09-01 18:23:24 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=xmnn.cn and result is 找到相关新闻约381,000篇
+2016-09-01 18:23:39 [scrapy] INFO: Crawled 36 pages (at 5 pages/min), scraped 0 items (at 0 items/min)
+2016-09-01 18:23:39 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=eastday.com and result is 找到相关新闻约1,380,000篇
+2016-09-01 18:23:50 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=sh.chinanews.com and result is 找到相关新闻约10,200篇
+2016-09-01 18:24:06 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=online.sh.cn and result is 找到相关新闻约143,000篇
+2016-09-01 18:24:15 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=sh.ccoo.cn and result is 找到相关新闻0篇
+2016-09-01 18:24:30 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=cntxt.com.cn and result is 找到相关新闻0篇
+2016-09-01 18:24:39 [scrapy] INFO: Crawled 40 pages (at 4 pages/min), scraped 0 items (at 0 items/min)
+2016-09-01 18:24:40 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=shanghaisc.cn and result is 找到相关新闻0篇
+2016-09-01 18:24:47 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=xinmin.cn and result is 找到相关新闻约825,000篇
+2016-09-01 18:24:57 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=shanghaicn.com and result is 找到相关新闻0篇
+2016-09-01 18:25:13 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=dayoo.com and result is 找到相关新闻约775,000篇
+2016-09-01 18:25:27 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=ycwb.com and result is 找到相关新闻约380,000篇
+2016-09-01 18:25:38 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=southcn.com and result is 找到相关新闻约1,020,000篇
+2016-09-01 18:25:39 [scrapy] INFO: Crawled 46 pages (at 6 pages/min), scraped 0 items (at 0 items/min)
+2016-09-01 18:25:48 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=gd.chinanews.com and result is 找到相关新闻约22,100篇
+2016-09-01 18:25:57 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=020.net and result is 找到相关新闻0篇
+2016-09-01 18:26:11 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=gznet.com and result is 找到相关新闻0篇
+2016-09-01 18:26:23 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=szonline.net and result is 找到相关新闻约55,900篇
+2016-09-01 18:26:37 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=shenchuang.com and result is 找到相关新闻约80,900篇
+2016-09-01 18:26:39 [scrapy] INFO: Crawled 51 pages (at 5 pages/min), scraped 0 items (at 0 items/min)
+2016-09-01 18:26:48 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=sznews.com and result is 找到相关新闻约513,000篇
+2016-09-01 18:27:00 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=nen.com.cn and result is 找到相关新闻约574,000篇
+2016-09-01 18:27:14 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=dlxww.com and result is 找到相关新闻约3,200篇
+2016-09-01 18:27:26 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=runsky.com and result is 找到相关新闻约54,500篇
+2016-09-01 18:27:37 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=lnd.com.cn and result is 找到相关新闻约55,700篇
+2016-09-01 18:27:39 [scrapy] INFO: Crawled 56 pages (at 5 pages/min), scraped 0 items (at 0 items/min)
+2016-09-01 18:27:48 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=newssc.org and result is 找到相关新闻约391,000篇
+2016-09-01 18:27:59 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=tfol.com and result is 找到相关新闻0篇
+2016-09-01 18:28:08 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=scol.com.cn and result is 找到相关新闻约196,000篇
+2016-09-01 18:28:15 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=hunan.voc.com.cn and result is 找到相关新闻约66,600篇
+2016-09-01 18:28:29 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=hn.chinanews.com and result is 找到相关新闻约33,300篇
+2016-09-01 18:28:39 [scrapy] INFO: Crawled 61 pages (at 5 pages/min), scraped 0 items (at 0 items/min)
+2016-09-01 18:28:39 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=hnrxw.com and result is 找到相关新闻0篇
+2016-09-01 18:28:56 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=cs.ccoo.cn and result is 找到相关新闻0篇
+2016-09-01 18:29:05 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=chinajilin.com.cn and result is 找到相关新闻约27,700篇
+2016-09-01 18:29:14 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=onlinejl.com and result is 找到相关新闻0篇
+2016-09-01 18:29:27 [scrapy] INFO: success to parse : http://news.baidu.com/ns?from=news&cl=2&bt=1441036800&y0=2015&m0=9&d0=1&y1=2016&m1=8&d1=30&et=1472572799&q1=&submit=%B0%D9%B6%C8%D2%BB%CF%C2&q3=&q4=&mt=0&lm=&s=2&begin_date=2015-9-1&end_date=2016-8-30&tn=newsdy&ct1=0&ct=0&rn=50&q6=ijilin.com and result is 找到相关新闻0篇
+2016-09-01 18:29:27 [scrapy] INFO: Closing spider (finished)
+2016-09-01 18:29:27 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 38067,
+ 'downloader/request_count': 66,
+ 'downloader/request_method_count/GET': 66,
+ 'downloader/response_bytes': 1956352,
+ 'downloader/response_count': 66,
+ 'downloader/response_status_count/200': 66,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 9, 1, 10, 29, 27, 919000),
+ 'log_count/INFO': 85,
+ 'log_count/WARNING': 1,
+ 'response_received_count': 66,
+ 'scheduler/dequeued': 66,
+ 'scheduler/dequeued/memory': 66,
+ 'scheduler/enqueued': 66,
+ 'scheduler/enqueued/memory': 66,
+ 'start_time': datetime.datetime(2016, 9, 1, 10, 16, 39, 240000)}
+2016-09-01 18:29:27 [scrapy] INFO: Spider closed (finished)

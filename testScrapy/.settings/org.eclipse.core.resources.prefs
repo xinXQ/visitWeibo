@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+encoding//scrapyTest/items.py=utf-8
+encoding//scrapyTest/pipelines.py=utf-8
+encoding//scrapyTest/settings.py=utf-8
+encoding//scrapyTest/spiders/bd_news_spider2.py=utf-8
+encoding//scrapyTest/spiders/bd_news_spider3.py=utf-8
+encoding//scrapyTest/spiders/bd_news_spider4.py=utf-8
+encoding//scrapyTest/spiders/spider_for_gov_beijing.py=utf-8
+encoding//scrapyTest/spiders/spider_for_gov_shanghai.py=utf-8
+encoding//scrapyTest/spiders/test.py=utf-8
+encoding//scrapyTest/spiders/test2.py=utf-8
